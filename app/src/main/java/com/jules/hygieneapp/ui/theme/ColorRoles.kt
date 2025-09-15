@@ -1,4 +1,4 @@
-package com.theveloper.pixelplay.ui.theme
+package com.jules.hygieneapp.ui.theme
 
 import android.graphics.Bitmap
 import android.util.LruCache
@@ -7,7 +7,7 @@ import androidx.compose.material3.lightColorScheme
 import androidx.compose.ui.graphics.Color
 import androidx.core.graphics.ColorUtils
 import androidx.palette.graphics.Palette
-import com.theveloper.pixelplay.presentation.viewmodel.ColorSchemePair
+import com.jules.hygieneapp.ui.theme.models.ColorSchemePair
 import kotlin.math.max
 import androidx.core.graphics.scale
 
@@ -60,7 +60,7 @@ fun extractSeedColor(bitmap: Bitmap): Color {
     val color = palette.vibrantSwatch?.rgb?.let { Color(it) }
         ?: palette.mutedSwatch?.rgb?.let { Color(it) }
         ?: palette.dominantSwatch?.rgb?.let { Color(it) }
-        ?: DarkColorScheme.primary // Fallback
+        ?: darkColorScheme().primary // Fallback
     
     // Store in cache
     extractedColorCache.put(bitmapHash, color)

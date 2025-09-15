@@ -1,4 +1,4 @@
-package com.theveloper.pixelplay
+package com.jules.hygieneapp
 
 import org.junit.Test
 
