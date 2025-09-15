@@ -20,6 +20,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PixelPlay"
+rootProject.name = "HygieneApp"
 include(":app")
  
