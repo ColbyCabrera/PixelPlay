@@ -20,6 +20,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "HygieneApp"
+rootProject.name = "Tasks"
 include(":app")
  

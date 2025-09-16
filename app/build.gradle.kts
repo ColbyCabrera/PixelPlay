@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.jules.hygieneapp"
+    namespace = "com.jules.tasks"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.jules.hygieneapp"
+        applicationId = "com.jules.tasks"
         minSdk = 29
         targetSdk = 35
         versionCode = 1
@@ -59,6 +59,7 @@ dependencies {
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
+    implementation(libs.androidx.ui.text.google.fonts)
     implementation(libs.androidx.material3)
     implementation(libs.material)
     implementation(libs.androidx.core.splashscreen)

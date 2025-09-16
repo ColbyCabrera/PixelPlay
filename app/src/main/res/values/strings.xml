@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PixelPlay</string>
+    <string name="app_name">Tasks</string>
     <string name="lyrics">Lyrics</string>
     <string name="close_lyrics_sheet">Close Lyrics Sheet</string>
     <string name="loading_lyrics">Loading lyrics…</string>
